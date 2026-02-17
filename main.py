@@ -8,7 +8,7 @@ API_KEY = "c8WRmO3Z0h79o4Vq2ENbMYtgFKnLrfPA65vkaGdXTlDiCHsI1QkVYeBC8RJXNiqPTQZbI
 
 CHANNEL = "@techtrickindia"
 YOUTUBE_LINK = "https://youtube.com/@techtrickindia9?si=Rpy7JUHkD24g2c0W"
-CHANNEL_LINK = "https://t.me/+L_vMv9fxx5ExMDU1"
+CHANNEL_LINK = "https://t.me/TechTrickIndia"
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -145,5 +145,6 @@ def stop(message):
 
 
 bot.infinity_polling()
+
 
 
