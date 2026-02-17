@@ -1,8 +1,8 @@
 import telebot
 import requests
 
-BOT_TOKEN = "APNA_NEW_TOKEN_DALO"
-API_KEY = "APNI_NEW_API_KEY_DALO"
+BOT_TOKEN = "8200935468:AAEUrC0uc7yHbNodiQV09uarsai_fiIio4o"
+API_KEY = "c8WRmO3Z0h79o4Vq2ENbMYtgFKnLrfPA65vkaGdXTlDiCHsI1QkVYeBC8RJXNiqPTQZbImFzEjtKWcaG"
 
 CHANNEL = "@techtrickindia"
 YOUTUBE_LINK = "https://youtube.com/@techtrickindia9?si=Rpy7JUHkD24g2c0W"
@@ -85,4 +85,5 @@ def sms(message):
         bot.reply_to(message,"Use:\n/sms number message")
 
 bot.infinity_polling()
+
 
