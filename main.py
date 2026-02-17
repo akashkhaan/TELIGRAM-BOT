@@ -1,8 +1,7 @@
 import telebot
 import requests
 
-BOT_TOKEN = "8200935468:AAHsRcYTfYy_3qmBQ6_McS3gkkaUaK4RI50
-"
+BOT_TOKEN = "8200935468:AAHsRcYTfYy_3qmBQ6_McS3gkkaUaK4RI50"
 
 API_KEY = "c8WRmO3Z0h79o4Vq2ENbMYtgFKnLrfPA65vkaGdXTlDiCHsI1QkVYeBC8RJXNiqPTQZbImFzEjtKWcaG"
 
@@ -92,3 +91,4 @@ def sms(message):
         bot.reply_to(message,"Use:\n/sms number message")
 
 bot.infinity_polling()
+
